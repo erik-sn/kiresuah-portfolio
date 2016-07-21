@@ -8,7 +8,7 @@ import http from 'http';
 import path from 'path';
 
 const app = express(); // delcare application
-const PORT = process.env.PORT || 3003;
+const PORT = process.env.PORT || 3010;
 
 app.use(compression()); // compress compatible files for quicker client load time
 app.use(logger('dev')); // log content
