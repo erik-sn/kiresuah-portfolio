@@ -90,7 +90,7 @@
       </div>  
       <div class="contact-container">
         <div class="form-container">
-        <form>
+        <form onsubmit="sendMessage(); return false;">
           <div class="form-group">
             <label for="name">Name:</label>
             <input type="text" class="form-control" id="name">
@@ -113,11 +113,10 @@
         </form>  
       </div> 
         <div class="contact-me-container">
-          Feel free to contact me for any reason. I am a beginner to programming so new ideas or 
-          feedback on my work is always appreciated. You can send me a message here, or contact 
-          me through one of the social media sites below:
+          Feel free to contact me for any reason. I am a beginner to software engineering so new ideas or 
+          feedback on my work is always appreciated.
         </div>
-        <div class="social-media">
+        <div id="alert-container">
         </div>
     </div>
     </div>   
