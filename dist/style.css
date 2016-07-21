@@ -1,0 +1,229 @@
+body {
+  font-family: 'Lato', sans-serif !important;
+  background-image: url("http://res.cloudinary.com/dvr87tqip/image/upload/v1461600928/backgroundcharleston_hxzpkk.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0px !important;
+}
+
+a {
+  color: #1B3F8B;  
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: #6495ED;
+}
+
+button {
+  cursor: pointer;
+}
+
+h3 {
+  margin-left: 40px;
+  text-align: left;
+  font-size: 24px !important;
+}
+
+.app-text {
+  text-align: left;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.app-tech {
+  font-size: 16px;
+  font-style: italic;
+}
+
+.nav-bar {
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  -webkit-box-shadow: 0px 2px 1px 2px rgba(0,0,0,0.47);
+  -moz-box-shadow: 0px 2px 1px 2px rgba(0,0,0,0.47);
+  box-shadow: 0px 2px 1px 2px rgba(0,0,0,0.47);
+  background-color: #1B3F8B;
+}
+
+.nav-buttons {
+  padding: 15px 20px 15px 0px;
+  float: right;
+  width: 400px;
+}
+
+.nav-button {
+  height: 40px;
+  width: 100px;
+  border: 2px solid white !important;
+  color: white !important;
+  background-color: #3A66A7 !important;
+  margin: 2px 5px;  
+
+  transition: background-color 0.35s ease-in-out;
+  transition: color 0.35s ease-in-out;
+}
+
+.nav-button:hover {
+  background-color: white !important;
+  color: #1B3F8B !important; 
+  font-weight: bold !important;
+}
+
+.icon-container {
+  margin-left: 40px;  
+}
+
+.icon-link {
+  float: left;
+  padding: 15px 5px 15px 5px;
+}
+
+.app-container {
+  width: 100%;
+  position: absolute;
+}
+
+.page-container {
+  text-align: center;
+  border: 2px solid white;
+  width: 800px;
+  margin-top: 60px;
+  margin-left: calc(50% - 400px);
+  margin-right: calc(50% - 400px); 
+  -webkit-box-shadow: 0px 5px 1px 2px rgba(0,0,0,0.47);
+  -moz-box-shadow: 0px 5px 1px 2px rgba(0,0,0,0.47);
+  box-shadow: 0px 5px 1px 2px rgba(0,0,0,0.47);;
+}
+
+.about-container {
+  height: 375px;
+  background-color: #3A66A7;
+}
+
+
+.about-me {
+  float: left;
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 70px;
+  color: white;
+  font-size: 20px;
+  width: 50%;
+}
+
+.img-me {
+  display: none;
+  float: right;
+  margin-right: 70px;
+  margin-top: 60px;
+  border-radius: 3px;
+  border: 1px solid white;
+  -webkit-box-shadow: 0px 1px 1px 2px rgba(0,0,0,0.47);
+  -moz-box-shadow: 0px 1px 1px 2px rgba(0,0,0,0.47);
+  box-shadow: 0px 1px 1px 2px rgba(0,0,0,0.47);;
+}
+.portfolio-container {
+  color: white;
+  padding-top: 20px;
+  margin-top: -20px;
+  height: 1050px;
+  background-color: #6495ED;
+}
+
+.portfolio-container img {
+  width: 350px;
+  border: 2px solid #6495ED;
+}
+
+.img-text {
+  height: 250px;
+}
+
+.left-img {
+  float: left; 
+  margin-left: 25px;
+  margin-bottom: 15px;
+  border: 2px solid white;
+}
+
+.right-img {
+  text-align: center;
+  float: right; 
+  margin-right: 25px;
+  margin-bottom: 15px;
+  border: 2px solid white;
+}
+
+.left-text {
+  float: left;
+  text-align: left;
+  width: 380px;
+  margin-left: 25px;
+  font-size: 18px;
+}
+
+.right-text {
+  float: right;
+  text-align: left;
+  width: 380px;
+  margin-right: 25px;
+  font-size: 18px;
+}
+
+.contact-container {
+  height: 550px;
+  background-color: #3A66A7;
+  color: white;
+  font-size: 18px;
+}
+
+.form-container {
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  float: left;  
+  width: 350px;
+  margin: 10px 25px 0px 15px;
+}
+
+.form-container input {
+  font-size: 18px;
+  height: 40px;
+  border-radius: 0px !important;
+}
+
+.form-container label {
+  float: left;
+}
+
+textarea {
+  resize: none;
+  font-size: 18px;
+  border-radius: 0px !important;
+}
+
+.send-button {
+  width: 100%;
+  font-size: 24px;
+  border: 2px solid white !important;
+  color: white !important;
+  background-color: #1B3F8B !important;
+}
+
+.send-button:hover {
+  background-color: white !important;
+  color: #1B3F8B !important; 
+  font-weight: bold !important;
+}
+
+#alert-container {
+  margin: 50px;
+  color: red;
+  font-weight: bold;
+}
+
+.contact-me-container {
+  padding: 60px 15px 15px 15px;
+  font-size: 20px;
+  text-align: left;
+}
