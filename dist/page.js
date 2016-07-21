@@ -35,7 +35,7 @@ function sendMessage() {
   if(message && (name || email || phone)) {
     $.ajax({
       method: "POST",
-      url: "http://localhost:8000/api/message/",
+      url: "https://kiresuah.me/api/message/",
       data: { name: name, email: email, phoneNumber: phone, message: message }
     })
     .done(function( msg ) {
